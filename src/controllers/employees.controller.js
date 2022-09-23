@@ -1,8 +1,7 @@
 import { pool } from "../db.js";
 
 export const getEmployees = async (req, res) => {
-  try {
-    throw new Error("BD Error");
+  try {    
     const query = await pool`SELECT id, name, salary FROM employee`;
     res.json(query);
   } catch (error) {
