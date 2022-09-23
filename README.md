@@ -10,6 +10,13 @@ Storage in Postgresql DB and deploy in Railway
 [Deploy in Railway](https://nodeapipostgresqldeploy-production.up.railway.app/api/employees)
 
 
+### Fields to use
+```
+id      -- id of employee
+name    -- name of employee
+salary  -- salary of epmloyee
+```
+
 ## End points:
 ```
 GET     /employees
