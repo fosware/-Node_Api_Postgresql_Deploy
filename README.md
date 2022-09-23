@@ -11,8 +11,10 @@ Storage in Postgresql DB and deploy in Railway
 
 
 ## End points:
+```
 GET     /employees
 GET     /employee/:id
 POST    /employees {'name': name, 'salary': salary}
 PATCH   /employee/:id {'name': name, 'salary': salary}
 DELETE  /employee/:id
+```
